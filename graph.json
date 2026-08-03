@@ -1,0 +1,2070 @@
+{
+ "kinds": {
+  "person": "accent2",
+  "role": "accent1",
+  "project": "accent4",
+  "software": "accent3",
+  "skill": "accent6",
+  "organisation": "dk2",
+  "education": "accent5",
+  "paper": "hlink"
+ },
+ "nodes": [
+  {
+   "id": "person:inigo",
+   "kind": "person",
+   "label": "Íñigo Fernández del Amo",
+   "detail": "Acting Strategy Director at Accenture with +6 years of experience advising Tech, Telco and Banking CxOs on IT, Digital and Data & Analytics transformations. Previously worked +4 years as Researcher at Cranfield University, developing AI and AR-native full-stack applications to support maintenance and diagnosis of high-value assets. Tech Strategy Agentic Lead at Accenture developing AI-driven solutions for professional work (agentic customer data platform, B2B agentic CRM) and personal use (trading bot, agentic consulting toolkit).",
+   "year": null,
+   "weight": 6,
+   "tags": []
+  },
+  {
+   "id": "role:2025accenture",
+   "kind": "role",
+   "label": "Senior Manager · 2025-Today",
+   "detail": "Senior Manager (acting as Strategy Director), Accenture",
+   "year": 2025,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "organisation:accenture",
+   "kind": "organisation",
+   "label": "Accenture",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "role:2022mckinsey",
+   "kind": "role",
+   "label": "Engagement Manager · 2022-2025",
+   "detail": "Engagement Manager (acting as Senior Engagement Manager), McKinsey & Company",
+   "year": 2022,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "organisation:mckinseycompany",
+   "kind": "organisation",
+   "label": "McKinsey & Company",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "role:2020mckinsey",
+   "kind": "role",
+   "label": "Associate · 2020-2022",
+   "detail": "Associate, McKinsey & Company",
+   "year": 2020,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "role:2016cranfield",
+   "kind": "role",
+   "label": "Research Fellow · 2016-2020",
+   "detail": "Research Fellow, Cranfield University",
+   "year": 2016,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "organisation:cranfielduniversity",
+   "kind": "organisation",
+   "label": "Cranfield University",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:agenticreinvention",
+   "kind": "project",
+   "label": "Agentic Reinvention",
+   "detail": "Directing agentic and operating model reinvention for group shared services to enhance business agility and reduce bureaucracy, with +20% efficiency savings found.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "agentic",
+    "operatingmodel",
+    "sharedservices",
+    "efficiency"
+   ]
+  },
+  {
+   "id": "organisation:spanishinsurancegroup",
+   "kind": "organisation",
+   "label": "Spanish Insurance Group",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:armaintenanceprototypes",
+   "kind": "project",
+   "label": "AR maintenance prototypes",
+   "detail": "Built AR (Augmented Reality) prototypes to automatically display 3D animations of maintenance instructions, reducing content creation time by 50%.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "ar",
+    "prototyping",
+    "unity",
+    "maintenance"
+   ]
+  },
+  {
+   "id": "project:augmentedconsultingtoolkit",
+   "kind": "project",
+   "label": "Augmented consulting toolkit",
+   "detail": "Led creation of a new agentic application for automatic presentation creation (pptx and html) for strategy teams, achieving +100% execution times and +50% accuracy versus comparable tools.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "agentic",
+    "internal",
+    "productivity"
+   ]
+  },
+  {
+   "id": "organisation:internal",
+   "kind": "organisation",
+   "label": "Internal",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:europeanbankdatastrategy",
+   "kind": "project",
+   "label": "Data strategy",
+   "detail": "Designed a 3-year next-generation Data transformation with 50+ Mn€ of value to capture, focusing on infrastructure and governance.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "datastrategy",
+    "datagovernance",
+    "infrastructure",
+    "transformation"
+   ]
+  },
+  {
+   "id": "organisation:europeanbank",
+   "kind": "organisation",
+   "label": "European Bank",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:europeanbankitoperatingmodel",
+   "kind": "project",
+   "label": "IT operating model and costs program",
+   "detail": "Designed an IT cost efficiency program with +100 Mn€ savings, including a new operating model with branches across multiple countries and automation and offshoring initiatives.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "itoperatingmodel",
+    "costreduction",
+    "sourcing"
+   ]
+  },
+  {
+   "id": "project:europeanenergymulticloud",
+   "kind": "project",
+   "label": "Multi-cloud strategy",
+   "detail": "Defined a multi-cloud strategy to reduce cloud costs by 15%, mapping the applications ecosystem and assessing migration scenarios based on migration feasibility and upgradeability.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "cloud",
+    "applicationmapping",
+    "migration",
+    "heterogeneousestate"
+   ]
+  },
+  {
+   "id": "organisation:europeanenergyprovider",
+   "kind": "organisation",
+   "label": "European Energy Provider",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:europeanitserviceprovideracceleration",
+   "kind": "project",
+   "label": "Strategy acceleration",
+   "detail": "Redesigned commercial processes and built new analytics tools to predict talent needs for +100 Mn€ in margin, defining a new value proposition and identifying cost levers in on-going contracts.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "commercialprocess",
+    "analytics",
+    "forecasting",
+    "margin"
+   ]
+  },
+  {
+   "id": "organisation:europeanitserviceprovider",
+   "kind": "organisation",
+   "label": "European IT service provider",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:europeansoftwarecompanyerp",
+   "kind": "project",
+   "label": "ERP transformation",
+   "detail": "Led design of a new de-centralised IT-ERP operating model with +30% cost reduction.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "erp",
+    "operatingmodel",
+    "costreduction"
+   ]
+  },
+  {
+   "id": "organisation:europeansoftwarecompany",
+   "kind": "organisation",
+   "label": "European Software Company",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:globaldigitalsentimentsurvey",
+   "kind": "project",
+   "label": "Global Digital Sentiment Survey",
+   "detail": "Conducted a digital services adoption survey with ~29k respondents across 11 industries and 24 countries; built a Tableau online tool and 200+ media pieces to disseminate results globally.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "survey",
+    "analytics",
+    "tableau",
+    "dissemination"
+   ]
+  },
+  {
+   "id": "organisation:usainternal",
+   "kind": "organisation",
+   "label": "USA internal",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:latamitserviceproviderbuild",
+   "kind": "project",
+   "label": "IT & Digital services business build",
+   "detail": "Defined strategy for 3x growth (+200 Mn€) in key ICT markets and 4 p.p. margin optimisation, building an end-to-end performance dashboard to track execution.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "businessbuild",
+    "growthstrategy",
+    "dashboards",
+    "margin"
+   ]
+  },
+  {
+   "id": "organisation:latamitserviceprovider",
+   "kind": "organisation",
+   "label": "Latam IT service provider",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:latamtelcodigitalsales",
+   "kind": "project",
+   "label": "Digital sales boost",
+   "detail": "Defined and launched a sales acceleration program to multiply the digital sales share by 2x, targeting key funnel elements.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "sales",
+    "digitalchannels",
+    "funnel"
+   ]
+  },
+  {
+   "id": "organisation:latamtelco",
+   "kind": "organisation",
+   "label": "Latam Telco",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:latamtelcoittransformation",
+   "kind": "project",
+   "label": "IT transformation",
+   "detail": "Designed an IT transformation strategy with 50+ Mn€ savings, including an IT and Data consolidation roadmap for 9 OpCos.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "ittransformation",
+    "dataconsolidation",
+    "multicountry",
+    "heterogeneousestate"
+   ]
+  },
+  {
+   "id": "project:middleeastbankdigitalfactory",
+   "kind": "project",
+   "label": "Digital Factory business build",
+   "detail": "Designed and built a digital factory to develop and maintain 3+ digital applications for 100+ Mn€ in revenues; hired 50+ FTEs, set up Digital and IT squads with Agile/SDLC methodologies, and developed an end-to-end microservices architecture to deploy new apps.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "businessbuild",
+    "hiring",
+    "agile",
+    "microservices",
+    "buildfromzero"
+   ]
+  },
+  {
+   "id": "organisation:middleeastbank",
+   "kind": "organisation",
+   "label": "Middle East Bank",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:middleeastbankitstrategy",
+   "kind": "project",
+   "label": "IT strategy",
+   "detail": "Designed a new IT transformation program to reduce spend and stabilise operations, including a new operating model, a new sourcing strategy and IT platform modernisation initiatives.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "itstrategy",
+    "operatingmodel",
+    "sourcing",
+    "modernisation"
+   ]
+  },
+  {
+   "id": "project:ontologyaidiagnosis",
+   "kind": "project",
+   "label": "Ontology-based failure diagnosis",
+   "detail": "Developed AI (ontology-based) applications to automatically diagnose failures in high-value machinery using knowledge from maintenance reports.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "ai",
+    "ontology",
+    "knowledgegraph",
+    "maintenance",
+    "semantics"
+   ]
+  },
+  {
+   "id": "project:spanishbankitstrategy",
+   "kind": "project",
+   "label": "IT strategy",
+   "detail": "Defined a 3-year IT plan for digitisation and cost optimisation with +70 Mn€ savings on cloud migration and ADM outsourcing.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "itstrategy",
+    "cloudmigration",
+    "outsourcing",
+    "costreduction"
+   ]
+  },
+  {
+   "id": "organisation:spanishbank",
+   "kind": "organisation",
+   "label": "Spanish Bank",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:spanishglobalbankitdemand",
+   "kind": "project",
+   "label": "IT demand and productivity reinvention",
+   "detail": "Directed design and deployment of a new IT demand process and IT productivity dashboard to accelerate the Agile Transformation of the Spanish branch, covering +50 teams and a +750 Mn€ budget and achieving +10% budget optimisation.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "itoperatingmodel",
+    "agile",
+    "dashboards",
+    "productivity"
+   ]
+  },
+  {
+   "id": "organisation:spanishglobalbank",
+   "kind": "organisation",
+   "label": "Spanish Global Bank",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:spanishitserviceprovidergrowth",
+   "kind": "project",
+   "label": "IT & Digital services growth strategy",
+   "detail": "Defined a new IT services product portfolio and a new professional services organisation to achieve +35% revenue growth and +2 p.p. margin optimisation in a 3-year plan.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "growthstrategy",
+    "productportfolio",
+    "organisationdesign"
+   ]
+  },
+  {
+   "id": "organisation:spanishitserviceprovider",
+   "kind": "organisation",
+   "label": "Spanish IT service provider",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:spanishtelcob2bdigitalservicesbuild",
+   "kind": "project",
+   "label": "B2B Digital services business build",
+   "detail": "Designed strategy and launched 3 products (beta) to build a new B2B digital services business aiming for +200 Mn€ revenues in 3 years, developing a product-partner testing method.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "businessbuild",
+    "productlaunch",
+    "digitalservices"
+   ]
+  },
+  {
+   "id": "organisation:spanishtelco",
+   "kind": "organisation",
+   "label": "Spanish Telco",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "project:spanishtelcob2bdigitalservicesrevamp",
+   "kind": "project",
+   "label": "B2B Digital services revamp",
+   "detail": "Directed scale-up of the B2B-SME digital services unit with +2 new channels and +30 products, achieving +60% revenues and 4x conversion rates in the first 3 months, and expecting +15 Mn€ revenues in the first year.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "digitalservices",
+    "b2b",
+    "growth",
+    "productportfolio"
+   ]
+  },
+  {
+   "id": "project:spanishtelcob2bgrowthstrategy",
+   "kind": "project",
+   "label": "B2B growth strategy",
+   "detail": "Defined strategy for 2x growth (+700 Mn€) in tech and telco markets, developing new tech products (cyber, IoT) and launching new channels (inside sales, digital) with a focus on SMEs.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "growthstrategy",
+    "productdevelopment",
+    "channels",
+    "sme"
+   ]
+  },
+  {
+   "id": "project:spanishtelcob2bsalesagentictoolkit",
+   "kind": "project",
+   "label": "B2B Sales Agentic Toolkit",
+   "detail": "Directed development of 3 agentic applications to enhance the B2B sales funnel from lead generation to sales evaluation, achieving +50% effective sales calling time and +1 p.p. conversion rates.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "agentic",
+    "sales",
+    "b2b"
+   ]
+  },
+  {
+   "id": "project:spanishtelcoiotbusinessbuild",
+   "kind": "project",
+   "label": "New IoT business build",
+   "detail": "Led design of a new joint-venture to expand IoT capabilities into +30 use cases, projecting +100 Mn€ revenues in 5 years.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "businessbuild",
+    "iot",
+    "jointventure"
+   ]
+  },
+  {
+   "id": "project:strategydigitalbrain",
+   "kind": "project",
+   "label": "Strategy Digital Brain",
+   "detail": "Directing development of a strategy ontology to productize strategy projects as digital brains. Tested in 2+ projects (operating model transformation and ERP transformation).",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "agentic",
+    "ontology",
+    "knowledgegraph",
+    "productisation"
+   ]
+  },
+  {
+   "id": "project:telconetworkdigitaltwin",
+   "kind": "project",
+   "label": "Digital Twin prototype",
+   "detail": "Designed and built advanced analytical models for a Digital Twin prototype to reduce a network's energy consumption by 10%.",
+   "year": null,
+   "weight": 2,
+   "tags": [
+    "analytics",
+    "digitaltwin",
+    "energy"
+   ]
+  },
+  {
+   "id": "organisation:telconetwork",
+   "kind": "organisation",
+   "label": "Telco Network",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "software:tessera",
+   "kind": "software",
+   "label": "Tessera",
+   "detail": "An agentic customer data platform built around two capabilities. The first is autonomous ingestion: agents read source databases, infer how their contents map onto a shared ontology, and assemble them into a knowledge graph without that mapping being written by hand. The second is activation on top of that graph — agentic tools and machine learning models that segment, target and hyper-personalise campaigns, each working against the graph rather than a separate extract.",
+   "year": 2026,
+   "weight": 3,
+   "tags": [
+    "cdp",
+    "agentic",
+    "knowledgegraph",
+    "personalisation"
+   ]
+  },
+  {
+   "id": "software:neoontology",
+   "kind": "software",
+   "label": "neoOntology",
+   "detail": "Ontology storage and visualisation platform built around my doctoral research, spanning five components: a nodeJS and Neo4j store using neosemantics to persist and query RDF ontologies; an augmented reality visualiser in Unity that renders ontology structures in 3D; sensor services in Python and C++ that transfer readings into the ontology; and a Docker distribution of the whole stack.",
+   "year": 2018,
+   "weight": 3,
+   "tags": [
+    "knowledgegraph",
+    "semantics",
+    "ar",
+    "research"
+   ]
+  },
+  {
+   "id": "software:leadmanager",
+   "kind": "software",
+   "label": "LeadManager",
+   "detail": "Multi-tenant CRM for client and call management with an AI-assisted workflow, intelligent client ranking, and flexible import and export. Supports multiple organisations and role-based access.",
+   "year": 2026,
+   "weight": 3,
+   "tags": [
+    "crm",
+    "agentic",
+    "multitenant"
+   ]
+  },
+  {
+   "id": "software:pricescrawler",
+   "kind": "software",
+   "label": "PriceScrawler",
+   "detail": "Web-crawling AI agent that discovers car dealerships across a target geography, extracts vehicle pricing, and generates a dashboard with area-level price analysis and market insight.",
+   "year": 2026,
+   "weight": 3,
+   "tags": [
+    "agentic",
+    "webcrawling",
+    "analytics"
+   ]
+  },
+  {
+   "id": "software:pagemaker",
+   "kind": "software",
+   "label": "PageMaker",
+   "detail": "AI presentation generator that turns briefs into finished decks through a deterministic LangGraph pipeline, with real-time progress streamed over WebSockets. Accepts text, structured data, images, existing decks or voice as input, and produces PowerPoint and HTML output.",
+   "year": 2026,
+   "weight": 3,
+   "tags": [
+    "agentic",
+    "llm",
+    "documentgeneration"
+   ]
+  },
+  {
+   "id": "software:trader",
+   "kind": "software",
+   "label": "Trader",
+   "detail": "ML and LLM-powered autonomous trading agent for the Spanish stock market. Combines statistical and machine learning models — XGBoost, Random Forest, LSTM, GARCH, HMM — with an LLM reasoning pipeline grounded in an ontology context, behind a hard validation gate enforcing position, sector and drawdown limits. Includes weekly automated retraining, paper and broker execution modes with graduation gates, and a React dashboard with real-time updates.",
+   "year": 2025,
+   "weight": 3,
+   "tags": [
+    "ml",
+    "llm",
+    "agentic",
+    "finance"
+   ]
+  },
+  {
+   "id": "software:kidder",
+   "kind": "software",
+   "label": "Kidder",
+   "detail": "Mobile-first household application with four modules, built as a single container serving both API and static assets. Organised around three shared packages: a design system, a bilingual internationalisation layer, and a Drizzle schema package.",
+   "year": 2026,
+   "weight": 3,
+   "tags": [
+    "webapp",
+    "designsystem",
+    "i18n"
+   ]
+  },
+  {
+   "id": "software:infra",
+   "kind": "software",
+   "label": "HomeLab",
+   "detail": "Infrastructure-as-code for a two-node Proxmox cluster running my self-hosted services. Terraform manages VM lifecycle, Cloudflare tunnels, DNS and access policies; Ansible handles the Docker engine, containerised services and application configuration; Coder workspace images build and publish through GitHub Actions.",
+   "year": 2025,
+   "weight": 3,
+   "tags": [
+    "infrastructure",
+    "iac",
+    "selfhosting"
+   ]
+  },
+  {
+   "id": "software:arwebcv",
+   "kind": "software",
+   "label": "AR CV",
+   "detail": "Marker-based augmented reality CV: pointing a phone camera at the marker printed in the CV header renders my career as a three-dimensional structure in the browser, with no app install. Rebuilt in 2026 to generate the scene at runtime from a single knowledge-graph source, so the 3D, web and document versions of this CV cannot drift apart — the version you are reading is one of them.",
+   "year": 2019,
+   "weight": 3,
+   "tags": [
+    "ar",
+    "webxr",
+    "personal"
+   ]
+  },
+  {
+   "id": "skill:python",
+   "kind": "skill",
+   "label": "Python",
+   "detail": "Languages",
+   "year": null,
+   "weight": 5,
+   "tags": []
+  },
+  {
+   "id": "skill:typescript",
+   "kind": "skill",
+   "label": "TypeScript",
+   "detail": "Languages",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:javascript",
+   "kind": "skill",
+   "label": "JavaScript",
+   "detail": "Languages",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:sql",
+   "kind": "skill",
+   "label": "SQL",
+   "detail": "Languages",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:r",
+   "kind": "skill",
+   "label": "R",
+   "detail": "Languages",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:csharp",
+   "kind": "skill",
+   "label": "C#",
+   "detail": "Languages",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:cpp",
+   "kind": "skill",
+   "label": "C++",
+   "detail": "Languages",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:machinelearning",
+   "kind": "skill",
+   "label": "Machine learning (XGBoost, Random Forest, LSTM)",
+   "detail": "Data science and machine learning",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:timeseries",
+   "kind": "skill",
+   "label": "Time series and stochastic models (GARCH, HMM)",
+   "detail": "Data science and machine learning",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:jupyter",
+   "kind": "skill",
+   "label": "Jupyter",
+   "detail": "Data science and machine learning",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:tableau",
+   "kind": "skill",
+   "label": "Tableau",
+   "detail": "Data science and machine learning",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:powerbi",
+   "kind": "skill",
+   "label": "PowerBI",
+   "detail": "Data science and machine learning",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:llm",
+   "kind": "skill",
+   "label": "LLM application design",
+   "detail": "AI and agentic systems",
+   "year": null,
+   "weight": 5,
+   "tags": []
+  },
+  {
+   "id": "skill:agentic",
+   "kind": "skill",
+   "label": "Agentic architectures (LangGraph, multi-agent)",
+   "detail": "AI and agentic systems",
+   "year": null,
+   "weight": 5,
+   "tags": []
+  },
+  {
+   "id": "skill:rag",
+   "kind": "skill",
+   "label": "RAG and retrieval pipelines",
+   "detail": "AI and agentic systems",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:promptdesign",
+   "kind": "skill",
+   "label": "Prompt and evaluation design",
+   "detail": "AI and agentic systems",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:ontology",
+   "kind": "skill",
+   "label": "Ontology engineering",
+   "detail": "Semantics and knowledge graphs",
+   "year": null,
+   "weight": 5,
+   "tags": []
+  },
+  {
+   "id": "skill:neo4j",
+   "kind": "skill",
+   "label": "Neo4j (Cypher)",
+   "detail": "Semantics and knowledge graphs",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:neosemantics",
+   "kind": "skill",
+   "label": "neosemantics",
+   "detail": "Semantics and knowledge graphs",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:rdf",
+   "kind": "skill",
+   "label": "RDF, RDFS and OWL",
+   "detail": "Semantics and knowledge graphs",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:protege",
+   "kind": "skill",
+   "label": "Protégé",
+   "detail": "Semantics and knowledge graphs",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:terraform",
+   "kind": "skill",
+   "label": "Terraform",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:ansible",
+   "kind": "skill",
+   "label": "Ansible",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:docker",
+   "kind": "skill",
+   "label": "Docker and Compose",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:proxmox",
+   "kind": "skill",
+   "label": "Proxmox",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:cloudflare",
+   "kind": "skill",
+   "label": "Cloudflare Tunnels and Access",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:githubactions",
+   "kind": "skill",
+   "label": "GitHub Actions",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:postgres",
+   "kind": "skill",
+   "label": "PostgreSQL",
+   "detail": "Infrastructure and platform",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:react",
+   "kind": "skill",
+   "label": "React and Vite",
+   "detail": "Web and application development",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:node",
+   "kind": "skill",
+   "label": "node.js",
+   "detail": "Web and application development",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:hono",
+   "kind": "skill",
+   "label": "Hono and Drizzle",
+   "detail": "Web and application development",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:tailwind",
+   "kind": "skill",
+   "label": "Tailwind",
+   "detail": "Web and application development",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:unity",
+   "kind": "skill",
+   "label": "Unity3D",
+   "detail": "Extended reality",
+   "year": null,
+   "weight": 4,
+   "tags": []
+  },
+  {
+   "id": "skill:vuforia",
+   "kind": "skill",
+   "label": "Vuforia",
+   "detail": "Extended reality",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "skill:aframe",
+   "kind": "skill",
+   "label": "A-Frame and AR.js",
+   "detail": "Extended reality",
+   "year": null,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "education:2016phdcranfield",
+   "kind": "education",
+   "label": "PhD in Artificial Intelligence & Augmented Reality",
+   "detail": "Cranfield University · 2016-2020 · Cum Laude",
+   "year": 2016,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "education:2015mscmanufacturing",
+   "kind": "education",
+   "label": "MSc in Manufacturing Consultancy (Double Degree)",
+   "detail": "Cranfield University · 2015-2016 · 2:1 Honours",
+   "year": 2015,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "education:2014mscindustrial",
+   "kind": "education",
+   "label": "MSc in Industrial Management (Double Degree)",
+   "detail": "ETSII UPM · 2014-2016 · 2:1 Honours",
+   "year": 2014,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "organisation:etsiiupm",
+   "kind": "organisation",
+   "label": "ETSII UPM",
+   "detail": "",
+   "year": null,
+   "weight": 1,
+   "tags": []
+  },
+  {
+   "id": "education:2009bengindustrial",
+   "kind": "education",
+   "label": "BEng in Industrial Technology Engineering",
+   "detail": "ETSII UPM · 2009-2014 · 2:1 Honours",
+   "year": 2009,
+   "weight": 3,
+   "tags": []
+  },
+  {
+   "id": "paper:2021hybridrecommendations",
+   "kind": "paper",
+   "label": "Hybrid recommendations and dynamic authoring for AR knowledge capture and re-use in diagnosis applications",
+   "detail": "Knowledge-Based Systems · 2021 · 22 citations",
+   "year": 2021,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "recommendersystems",
+    "knowledgecapture"
+   ]
+  },
+  {
+   "id": "paper:2020digitaltwins",
+   "kind": "paper",
+   "label": "A design framework for adaptive digital twins",
+   "detail": "CIRP Annals · 2020 · 128 citations",
+   "year": 2020,
+   "weight": 2,
+   "tags": [
+    "digitaltwin",
+    "designframework"
+   ]
+  },
+  {
+   "id": "paper:2020structuredauthoring",
+   "kind": "paper",
+   "label": "Structured authoring for AR-based communication to enhance efficiency in remote diagnosis for complex equipment",
+   "detail": "Advanced Engineering Informatics · 2020 · 51 citations",
+   "year": 2020,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "remotediagnosis",
+    "authoring"
+   ]
+  },
+  {
+   "id": "paper:2020systemmodel",
+   "kind": "paper",
+   "label": "An Augmented Reality System Model for Integration with Maintenance Information Systems",
+   "detail": "Manufacturing in the Era of 4th Industrial Revolution · 2020 · 0 citations",
+   "year": 2020,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "systemsintegration"
+   ]
+  },
+  {
+   "id": "paper:2018systematicreview",
+   "kind": "paper",
+   "label": "A systematic review of Augmented Reality content-related techniques for knowledge transfer in maintenance applications",
+   "detail": "Computers in Industry · 2018 · 356 citations",
+   "year": 2018,
+   "weight": 4,
+   "tags": [
+    "ar",
+    "knowledgetransfer",
+    "systematicreview"
+   ]
+  },
+  {
+   "id": "paper:2018designframework",
+   "kind": "paper",
+   "label": "Augmented Reality in Maintenance: An information-centred design framework",
+   "detail": "Procedia Manufacturing · 2018 · 89 citations",
+   "year": 2018,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "designframework",
+    "informationdesign"
+   ]
+  },
+  {
+   "id": "paper:2018humanrobottrust",
+   "kind": "paper",
+   "label": "Designing an AR interface to improve trust in Human-Robots collaboration",
+   "detail": "Procedia CIRP · 2018 · 80 citations",
+   "year": 2018,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "humanrobot",
+    "trust"
+   ]
+  },
+  {
+   "id": "paper:2018supporttool",
+   "kind": "paper",
+   "label": "An innovative user-centred support tool for Augmented Reality maintenance systems design: a preliminary study",
+   "detail": "Procedia CIRP · 2018 · 30 citations",
+   "year": 2018,
+   "weight": 1,
+   "tags": [
+    "ar",
+    "usercentreddesign"
+   ]
+  },
+  {
+   "id": "paper:2017contextawareauthoring",
+   "kind": "paper",
+   "label": "Improving efficiency of industrial maintenance with context aware adaptive authoring in augmented reality",
+   "detail": "CIRP Annals · 2017 · 156 citations",
+   "year": 2017,
+   "weight": 2,
+   "tags": [
+    "ar",
+    "authoring",
+    "contextawareness"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "source": "person:inigo",
+   "target": "role:2025accenture",
+   "kind": "holds"
+  },
+  {
+   "source": "role:2025accenture",
+   "target": "organisation:accenture",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "role:2022mckinsey",
+   "kind": "holds"
+  },
+  {
+   "source": "role:2022mckinsey",
+   "target": "organisation:mckinseycompany",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "role:2020mckinsey",
+   "kind": "holds"
+  },
+  {
+   "source": "role:2020mckinsey",
+   "target": "organisation:mckinseycompany",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "role:2016cranfield",
+   "kind": "holds"
+  },
+  {
+   "source": "role:2016cranfield",
+   "target": "organisation:cranfielduniversity",
+   "kind": "at"
+  },
+  {
+   "source": "project:agenticreinvention",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:agenticreinvention",
+   "target": "organisation:spanishinsurancegroup",
+   "kind": "for"
+  },
+  {
+   "source": "project:agenticreinvention",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "project:agenticreinvention",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "project:armaintenanceprototypes",
+   "target": "role:2016cranfield",
+   "kind": "during"
+  },
+  {
+   "source": "project:armaintenanceprototypes",
+   "target": "organisation:cranfielduniversity",
+   "kind": "for"
+  },
+  {
+   "source": "project:armaintenanceprototypes",
+   "target": "skill:unity",
+   "kind": "uses"
+  },
+  {
+   "source": "project:armaintenanceprototypes",
+   "target": "skill:vuforia",
+   "kind": "uses"
+  },
+  {
+   "source": "project:armaintenanceprototypes",
+   "target": "skill:csharp",
+   "kind": "uses"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "organisation:internal",
+   "kind": "for"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "project:augmentedconsultingtoolkit",
+   "target": "skill:promptdesign",
+   "kind": "uses"
+  },
+  {
+   "source": "project:europeanbankdatastrategy",
+   "target": "role:2020mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:europeanbankdatastrategy",
+   "target": "organisation:europeanbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:europeanbankdatastrategy",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "project:europeanbankitoperatingmodel",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:europeanbankitoperatingmodel",
+   "target": "organisation:europeanbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:europeanenergymulticloud",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:europeanenergymulticloud",
+   "target": "organisation:europeanenergyprovider",
+   "kind": "for"
+  },
+  {
+   "source": "project:europeanenergymulticloud",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "project:europeanitserviceprovideracceleration",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:europeanitserviceprovideracceleration",
+   "target": "organisation:europeanitserviceprovider",
+   "kind": "for"
+  },
+  {
+   "source": "project:europeanitserviceprovideracceleration",
+   "target": "skill:machinelearning",
+   "kind": "uses"
+  },
+  {
+   "source": "project:europeanitserviceprovideracceleration",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "project:europeansoftwarecompanyerp",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:europeansoftwarecompanyerp",
+   "target": "organisation:europeansoftwarecompany",
+   "kind": "for"
+  },
+  {
+   "source": "project:globaldigitalsentimentsurvey",
+   "target": "role:2020mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:globaldigitalsentimentsurvey",
+   "target": "organisation:usainternal",
+   "kind": "for"
+  },
+  {
+   "source": "project:globaldigitalsentimentsurvey",
+   "target": "skill:tableau",
+   "kind": "uses"
+  },
+  {
+   "source": "project:globaldigitalsentimentsurvey",
+   "target": "skill:r",
+   "kind": "uses"
+  },
+  {
+   "source": "project:latamitserviceproviderbuild",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:latamitserviceproviderbuild",
+   "target": "organisation:latamitserviceprovider",
+   "kind": "for"
+  },
+  {
+   "source": "project:latamitserviceproviderbuild",
+   "target": "skill:powerbi",
+   "kind": "uses"
+  },
+  {
+   "source": "project:latamitserviceproviderbuild",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "project:latamtelcodigitalsales",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:latamtelcodigitalsales",
+   "target": "organisation:latamtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:latamtelcoittransformation",
+   "target": "role:2020mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:latamtelcoittransformation",
+   "target": "organisation:latamtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:latamtelcoittransformation",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "project:middleeastbankdigitalfactory",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:middleeastbankdigitalfactory",
+   "target": "organisation:middleeastbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:middleeastbankdigitalfactory",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "project:middleeastbankitstrategy",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:middleeastbankitstrategy",
+   "target": "organisation:middleeastbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "role:2016cranfield",
+   "kind": "during"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "organisation:cranfielduniversity",
+   "kind": "for"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "skill:ontology",
+   "kind": "uses"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "skill:rdf",
+   "kind": "uses"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "skill:protege",
+   "kind": "uses"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "skill:neo4j",
+   "kind": "uses"
+  },
+  {
+   "source": "project:ontologyaidiagnosis",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishbankitstrategy",
+   "target": "role:2020mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishbankitstrategy",
+   "target": "organisation:spanishbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishglobalbankitdemand",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishglobalbankitdemand",
+   "target": "organisation:spanishglobalbank",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishglobalbankitdemand",
+   "target": "skill:powerbi",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishglobalbankitdemand",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishitserviceprovidergrowth",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishitserviceprovidergrowth",
+   "target": "organisation:spanishitserviceprovider",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishtelcob2bdigitalservicesbuild",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishtelcob2bdigitalservicesbuild",
+   "target": "organisation:spanishtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishtelcob2bdigitalservicesrevamp",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishtelcob2bdigitalservicesrevamp",
+   "target": "organisation:spanishtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishtelcob2bdigitalservicesrevamp",
+   "target": "skill:powerbi",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishtelcob2bgrowthstrategy",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishtelcob2bgrowthstrategy",
+   "target": "organisation:spanishtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "organisation:spanishtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishtelcob2bsalesagentictoolkit",
+   "target": "skill:promptdesign",
+   "kind": "uses"
+  },
+  {
+   "source": "project:spanishtelcoiotbusinessbuild",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:spanishtelcoiotbusinessbuild",
+   "target": "organisation:spanishtelco",
+   "kind": "for"
+  },
+  {
+   "source": "project:strategydigitalbrain",
+   "target": "role:2025accenture",
+   "kind": "during"
+  },
+  {
+   "source": "project:strategydigitalbrain",
+   "target": "organisation:internal",
+   "kind": "for"
+  },
+  {
+   "source": "project:strategydigitalbrain",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "project:strategydigitalbrain",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "project:strategydigitalbrain",
+   "target": "skill:ontology",
+   "kind": "uses"
+  },
+  {
+   "source": "project:telconetworkdigitaltwin",
+   "target": "role:2022mckinsey",
+   "kind": "during"
+  },
+  {
+   "source": "project:telconetworkdigitaltwin",
+   "target": "organisation:telconetwork",
+   "kind": "for"
+  },
+  {
+   "source": "project:telconetworkdigitaltwin",
+   "target": "skill:machinelearning",
+   "kind": "uses"
+  },
+  {
+   "source": "project:telconetworkdigitaltwin",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "project:telconetworkdigitaltwin",
+   "target": "skill:timeseries",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:tessera",
+   "kind": "built"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:typescript",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:ontology",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:rdf",
+   "kind": "uses"
+  },
+  {
+   "source": "software:tessera",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:neoontology",
+   "kind": "built"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:ontology",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:neo4j",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:neosemantics",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:rdf",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:node",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:csharp",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:unity",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:cpp",
+   "kind": "uses"
+  },
+  {
+   "source": "software:neoontology",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:leadmanager",
+   "kind": "built"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:javascript",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:postgres",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:rag",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:terraform",
+   "kind": "uses"
+  },
+  {
+   "source": "software:leadmanager",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:pricescrawler",
+   "kind": "built"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:rag",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:javascript",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:terraform",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pricescrawler",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:pagemaker",
+   "kind": "built"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:promptdesign",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:rag",
+   "kind": "uses"
+  },
+  {
+   "source": "software:pagemaker",
+   "target": "skill:terraform",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:trader",
+   "kind": "built"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:typescript",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:machinelearning",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:timeseries",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:llm",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:agentic",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:react",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "software:trader",
+   "target": "skill:jupyter",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:kidder",
+   "kind": "built"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:typescript",
+   "kind": "uses"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:react",
+   "kind": "uses"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:tailwind",
+   "kind": "uses"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:hono",
+   "kind": "uses"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:sql",
+   "kind": "uses"
+  },
+  {
+   "source": "software:kidder",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:infra",
+   "kind": "built"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:terraform",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:ansible",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:proxmox",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:cloudflare",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:docker",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:githubactions",
+   "kind": "uses"
+  },
+  {
+   "source": "software:infra",
+   "target": "skill:python",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "software:arwebcv",
+   "kind": "built"
+  },
+  {
+   "source": "software:arwebcv",
+   "target": "skill:aframe",
+   "kind": "uses"
+  },
+  {
+   "source": "software:arwebcv",
+   "target": "skill:javascript",
+   "kind": "uses"
+  },
+  {
+   "source": "person:inigo",
+   "target": "education:2016phdcranfield",
+   "kind": "studied"
+  },
+  {
+   "source": "education:2016phdcranfield",
+   "target": "organisation:cranfielduniversity",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "education:2015mscmanufacturing",
+   "kind": "studied"
+  },
+  {
+   "source": "education:2015mscmanufacturing",
+   "target": "organisation:cranfielduniversity",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "education:2014mscindustrial",
+   "kind": "studied"
+  },
+  {
+   "source": "education:2014mscindustrial",
+   "target": "organisation:etsiiupm",
+   "kind": "at"
+  },
+  {
+   "source": "person:inigo",
+   "target": "education:2009bengindustrial",
+   "kind": "studied"
+  },
+  {
+   "source": "education:2009bengindustrial",
+   "target": "organisation:etsiiupm",
+   "kind": "at"
+  },
+  {
+   "source": "paper:2021hybridrecommendations",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2020digitaltwins",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2020structuredauthoring",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2020systemmodel",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2018systematicreview",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2018designframework",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2018humanrobottrust",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2018supporttool",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  },
+  {
+   "source": "paper:2017contextawareauthoring",
+   "target": "education:2016phdcranfield",
+   "kind": "from"
+  }
+ ]
+}

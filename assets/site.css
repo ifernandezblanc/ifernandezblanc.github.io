@@ -1,0 +1,392 @@
+:root {
+  --dk1: #000000;
+  --lt1: #FFFFFF;
+  --dk2: #999CA9;
+  --lt2: #FFFFFF;
+  --accent1: #286FEA;
+  --accent2: #051C2C;
+  --accent3: #6CE298;
+  --accent4: #3C5050;
+  --accent5: #E59FB3;
+  --accent6: #613673;
+  --hlink: #1F40E6;
+  --folhlink: #8C5AC8;
+  --headingfont: "Roboto Slab SemiBold";
+  --bodyfont: "Roboto Regular";
+}
+
+/* Colour and font tokens are injected above this file from ifa-brand at build time. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+@font-face {
+  font-family: "Roboto"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/Roboto-400-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+2000-206F, U+2192, U+2212;
+}
+@font-face {
+  font-family: "Roboto"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/Roboto-400-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+1E00-1EFF, U+2020, U+20A0-20AB;
+}
+@font-face {
+  font-family: "Roboto"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/Roboto-500-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F;
+}
+@font-face {
+  font-family: "Roboto"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/Roboto-500-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+1E00-1EFF, U+2020, U+20A0-20AB;
+}
+@font-face {
+  font-family: "Roboto Slab"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("fonts/RobotoSlab-600-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F;
+}
+@font-face {
+  font-family: "Roboto Slab"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("fonts/RobotoSlab-600-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+1E00-1EFF, U+2020, U+20A0-20AB;
+}
+
+:root {
+  --rail: 13rem;
+  --railnarrow: 3.5rem;
+  --ink: #16181d;
+  --muted: #5b616e;
+  --line: #e3e5ea;
+  --paper: #ffffff;
+  --wash: #f6f7f9;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--bodyfont), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+h1, h2, h3 { font-family: var(--headingfont), Georgia, serif; font-weight: 600; line-height: 1.25; }
+
+a { color: var(--accent1); }
+a:hover { text-decoration: none; }
+
+/* --- navigation rail ----------------------------------------------------- */
+
+.rail {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--rail);
+  background: var(--accent2);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  padding: 0 1rem 1.25rem;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  margin-bottom: 1rem;
+}
+.brand img { width: 2rem; height: 2rem; object-fit: cover; border-radius: 50%; flex: none; }
+.brand span {
+  font-family: var(--headingfont), Georgia, serif; font-size: .9375rem;
+  display: flex; flex-direction: column; line-height: 1.15;
+}
+.brand span b { font-weight: 600; }
+
+.rail nav { display: flex; flex-direction: column; gap: .25rem; padding: 0 .625rem; }
+
+.rail a {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .625rem .75rem;
+  border-radius: .5rem;
+  color: rgba(255,255,255,.82);
+  text-decoration: none;
+  font-size: .9375rem;
+}
+.rail a:hover { background: rgba(255,255,255,.1); color: #fff; }
+.rail a[aria-current="page"] { background: var(--accent1); color: #fff; }
+.rail a svg { width: 1.25rem; height: 1.25rem; flex: none; stroke: currentColor; fill: none; stroke-width: 1.75; }
+.rail .label { white-space: nowrap; overflow: hidden; }
+
+.rail form { margin-top: auto; padding: 1rem .625rem 0; }
+.rail button {
+  width: 100%;
+  display: flex; align-items: center; gap: .75rem;
+  padding: .625rem .75rem;
+  font: inherit; font-size: .9375rem;
+  color: rgba(255,255,255,.82);
+  background: none; border: 1px solid rgba(255,255,255,.22); border-radius: .5rem;
+  cursor: pointer;
+}
+.rail button:hover { background: rgba(255,255,255,.1); color: #fff; }
+.rail button svg { width: 1.25rem; height: 1.25rem; flex: none; stroke: currentColor; fill: none; stroke-width: 1.75; }
+
+/* --- content ------------------------------------------------------------- */
+
+main { margin-left: var(--rail); padding: 2.5rem clamp(1.25rem, 4vw, 3.5rem); }
+.sheet { max-width: 52rem; margin: 0 auto; }
+
+header.masthead { border-bottom: 2px solid var(--accent2); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+header.masthead h1 {
+  margin: 0 0 .5rem; font-size: clamp(1.75rem, 4vw, 2.25rem);
+  display: flex; flex-direction: column; line-height: 1.08;
+}
+.contact { display: flex; flex-wrap: wrap; gap: .375rem 1rem; font-size: .9375rem; color: var(--muted); }
+.summary { font-size: 1.0625rem; margin: 1.5rem 0 0; }
+
+section { margin-top: 2.5rem; }
+section > h2 {
+  font-size: 1.125rem; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--accent2); margin: 0 0 1.25rem; padding-bottom: .5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.role { margin-bottom: 2rem; }
+.role h3 { margin: 0; font-size: 1.125rem; }
+.role .meta { color: var(--muted); font-size: .9375rem; margin-bottom: .875rem; }
+.group { font-size: .8125rem; font-weight: 500; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--accent4); margin: 1rem 0 .5rem; }
+
+ul.items { list-style: none; margin: 0; padding: 0; }
+ul.items > li { margin-bottom: .75rem; padding-left: 1rem; border-left: 2px solid var(--line); }
+ul.items > li:hover { border-left-color: var(--accent1); }
+.client { font-weight: 500; }
+
+.card { border: 1px solid var(--line); border-radius: .625rem; padding: 1rem 1.125rem; margin-bottom: .875rem; background: var(--wash); }
+.card h3 { margin: 0 0 .25rem; font-size: 1.0625rem; }
+.card .meta { color: var(--muted); font-size: .875rem; margin-bottom: .5rem; }
+.card p { margin: 0 0 .625rem; }
+
+.tags { display: flex; flex-wrap: wrap; gap: .375rem; }
+.tags span { font-size: .75rem; padding: .1875rem .5rem; border-radius: 1rem;
+  background: var(--paper); border: 1px solid var(--line); color: var(--muted); }
+
+/* One shape for every entry: its date or label on the left, its content on the right —
+   the same division the Word document uses, so both read as the same CV. */
+dl.pairs { display: grid; grid-template-columns: minmax(8rem, 11rem) 1fr; gap: 1rem 1.5rem; margin: 0; }
+dl.pairs dt {
+  font-weight: 500; color: var(--accent2); text-align: right;
+  display: flex; flex-direction: column; line-height: 1.35;
+}
+dl.pairs dt span { font-weight: 400; color: var(--muted); font-size: .875rem; }
+dl.pairs dd { margin: 0; }
+dl.pairs dd > strong:first-child { color: var(--accent2); }
+dl.pairs .group { font-size: .8125rem; font-weight: 500; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--accent4); margin: .875rem 0 .375rem; }
+dl.pairs .cited { color: var(--muted); font-size: .8125rem; }
+
+footer.note { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .875rem; }
+
+/* --- viewer surfaces (graph and AR) -------------------------------------- */
+
+.stage { margin-left: var(--rail); height: 100vh; position: relative; background: var(--wash); }
+.stage canvas, .stage > svg { display: block; width: 100%; height: 100%; }
+.stagenote {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  max-width: 28rem; text-align: center; color: var(--muted); padding: 1.5rem;
+}
+
+/* --- responsive ---------------------------------------------------------- */
+
+@media (max-width: 46rem) {
+  .rail { width: var(--railnarrow); padding: .75rem 0; }
+  .rail .label { display: none; }
+  .rail a, .rail button { justify-content: center; padding: .625rem 0; gap: 0; }
+  .brand { justify-content: center; padding: 0 0 .75rem; margin-bottom: .75rem; }
+  .brand span { display: none; }
+  .brand img { width: 2.25rem; height: 2.25rem; }
+  main, .stage { margin-left: var(--railnarrow); }
+  main { padding: 1.5rem 1.125rem; }
+  dl.pairs { grid-template-columns: 1fr; gap: .125rem 0; }
+  dl.pairs dt { text-align: left; flex-direction: row; gap: .5rem; flex-wrap: wrap; }
+  dl.pairs dd { margin-bottom: 1.25rem; }
+}
+
+/* --- print --------------------------------------------------------------- */
+
+@media print {
+  .rail, footer.note { display: none; }
+  main { margin: 0; padding: 0; }
+  .sheet { max-width: none; }
+
+  body { font-size: 9.4pt; line-height: 1.32; color: #000; }
+  a { color: #000; text-decoration: none; }
+
+  header.masthead { padding-bottom: .5rem; margin-bottom: .75rem; }
+  header.masthead h1 { font-size: 19pt; margin-bottom: .2rem; }
+  .contact { font-size: 8.6pt; gap: .1rem .75rem; }
+  .summary { font-size: 9.4pt; margin-top: .5rem; }
+
+  /* Sections must break across pages. Forbidding it is what pushed this to 8 pages. */
+  section { margin-top: .85rem; page-break-inside: auto; }
+  section > h2 { font-size: 10.5pt; margin-bottom: .45rem; padding-bottom: .15rem;
+    page-break-after: avoid; }
+
+  .role { margin-bottom: .7rem; }
+  .role h3 { font-size: 10pt; page-break-after: avoid; }
+  .role .meta { font-size: 8.6pt; margin-bottom: .25rem; }
+  .group { font-size: 8.2pt; margin: .4rem 0 .15rem; page-break-after: avoid; }
+
+  ul.items > li { margin-bottom: .22rem; padding-left: .55rem; border-left-width: 1px;
+    page-break-inside: avoid; }
+
+  .card { background: none; border: 0; border-left: 1px solid #bbb; border-radius: 0;
+    padding: 0 0 0 .55rem; margin-bottom: .45rem; page-break-inside: avoid; }
+  .card h3 { font-size: 9.6pt; margin-bottom: .05rem; }
+  .card .meta { font-size: 8.2rem; font-size: 8.2pt; margin-bottom: .12rem; }
+  .card p { margin-bottom: .12rem; }
+  .tags span { border: 0; padding: 0; background: none; font-size: 8.2pt; font-style: italic; }
+  .tags { gap: 0 .3rem; }
+
+  dl.pairs { gap: .12rem .9rem; grid-template-columns: minmax(7rem, 11rem) 1fr; }
+
+  @page { margin: 13mm; }
+}
+
+/* --- graph view ---------------------------------------------------------- */
+
+.stage canvas { touch-action: none; cursor: grab; }
+
+.controls {
+  position: absolute; top: 1rem; left: 1rem; right: 1rem;
+  display: flex; flex-wrap: wrap; gap: .375rem; align-items: flex-start;
+  pointer-events: none;
+}
+.controls > * { pointer-events: auto; }
+
+#legend { display: flex; flex-wrap: wrap; gap: .375rem; }
+#legend button, .controls .action {
+  display: inline-flex; align-items: center; gap: .375rem;
+  font: inherit; font-size: .75rem; line-height: 1;
+  padding: .375rem .5rem; border-radius: 1rem; cursor: pointer;
+  background: rgba(255,255,255,.94); border: 1px solid var(--line); color: var(--ink);
+  backdrop-filter: blur(6px);
+}
+#legend button i { width: .625rem; height: .625rem; border-radius: 50%; display: block; }
+#legend button b { font-weight: 500; color: var(--muted); }
+#legend button.off { opacity: .45; }
+#legend button.off i { background: var(--muted) !important; }
+.controls .action { margin-left: auto; }
+
+#detail {
+  position: absolute; right: 1rem; bottom: 1rem; width: min(22rem, calc(100% - 2rem));
+  background: var(--paper); border: 1px solid var(--line); border-radius: .75rem;
+  padding: 1rem 1.125rem; box-shadow: 0 8px 28px rgba(5,28,44,.14);
+}
+#detail .close {
+  position: absolute; top: .5rem; right: .625rem; border: 0; background: none;
+  font-size: 1.25rem; line-height: 1; color: var(--muted); cursor: pointer;
+}
+#detail .kind { font-size: .6875rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 500; }
+#detail h2 { margin: .25rem 0 .5rem; font-size: 1.0625rem; }
+#detail p { margin: 0 0 .625rem; font-size: .875rem; color: var(--muted); }
+
+.hint {
+  position: absolute; left: 1rem; bottom: 1rem;
+  font-size: .75rem; color: var(--muted); background: rgba(255,255,255,.88);
+  padding: .375rem .625rem; border-radius: 1rem; border: 1px solid var(--line);
+}
+
+@media (max-width: 46rem) {
+  #detail { left: 1rem; right: 1rem; width: auto; }
+  .hint { display: none; }
+}
+
+/* --- ar view ------------------------------------------------------------- */
+
+/* The AR view takes the whole viewport rather than sitting inside the stage box.
+   AR.js appends its camera feed to <body> and sizes it to the source, so any element
+   left in the normal flow ends up above or below it — that was the band of whitespace.
+   With the feed, the canvas and the scene all fixed to the viewport there is nothing
+   in the flow to displace, and the rail simply floats over the top. */
+.arstage {
+  margin: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  overflow: visible;
+  position: static;
+}
+
+#arjs-video,
+.arstage a-scene,
+.arstage .a-canvas {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  object-fit: cover !important;
+}
+
+#arjs-video { z-index: 0; }
+
+/* AR.js also appends an error container. Left static it occupies flow height at the
+   foot of the page, which pushes the layout even when it has nothing to say. */
+#error-popup {
+  position: fixed !important;
+  bottom: 1rem; left: 50%; transform: translateX(-50%);
+  z-index: 6; max-width: min(28rem, 90vw); text-align: center;
+  background: var(--paper); color: var(--ink);
+  border: 1px solid var(--line); border-radius: .5rem; padding: .5rem .75rem;
+}
+#error-popup:empty { display: none !important; }
+.arstage .a-canvas { z-index: 1; background: transparent !important; }
+
+/* the rail already sits at z-index 10; these ride just under it */
+.arstage .controls, .arstage .hint, .arstage #detail { position: fixed; z-index: 5; }
+.arstage .controls { top: 1rem; left: calc(var(--rail) + 1rem); right: 1rem; }
+.arstage .hint { bottom: 1rem; left: calc(var(--rail) + 1rem); }
+
+@media (max-width: 46rem) {
+  .arstage .controls { left: calc(var(--railnarrow) + 1rem); }
+  .arstage .hint { left: calc(var(--railnarrow) + 1rem); }
+}
+#detail .kind { color: var(--accent1); }
+
+/* --- collapsible sections ------------------------------------------------ */
+
+details.section { margin-top: 1.75rem; border-bottom: 1px solid var(--line); }
+details.section:last-of-type { border-bottom: 0; }
+details.section > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: .5rem;
+  padding-bottom: .5rem;
+}
+details.section > summary::-webkit-details-marker { display: none; }
+details.section > summary::before {
+  content: ""; width: .5rem; height: .5rem; flex: none;
+  border-right: 2px solid var(--accent1); border-bottom: 2px solid var(--accent1);
+  transform: rotate(-45deg); transition: transform .15s ease; margin-bottom: .2rem;
+}
+details.section[open] > summary::before { transform: rotate(45deg); }
+details.section > summary h2 {
+  font-size: 1.125rem; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--accent2); margin: 0; border: 0; padding: 0;
+}
+details.section > summary:hover h2 { color: var(--accent1); }
+.panel { padding: .5rem 0 1.25rem; }
+
+@media print {
+  details.section { border: 0; margin-top: .85rem; }
+  details.section > summary::before { display: none; }
+  details.section > summary { padding-bottom: .15rem; }
+  .panel { padding: 0; }
+  header.masthead h1 { display: block; }
+}
